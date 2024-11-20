@@ -32,7 +32,7 @@ export function MultiStepLoaderDemo() {
       <Loader loadingStates={loadingStates} loading={loading} duration={2000} />
 
       <a
-        href="https://h1-mock.vercel.app/"
+        href="https://m1-mock.vercel.app/"
         onClick={(e) => {
           e.preventDefault(); // Prevent default anchor behavior
           startLoader(); // Trigger the loader and redirection logic
